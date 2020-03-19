@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package com.class13InterviewQuestions;
 
 public class Fibonacci {
 
