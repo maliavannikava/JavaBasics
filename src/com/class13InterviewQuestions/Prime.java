@@ -9,10 +9,18 @@ public class Prime {
 		
 		Scanner scan=new Scanner(System.in);
 		int num=scan.nextInt();
-		if(num%2==0 || num%3==0) {
-			System.out.println("The given number is NOT prime");
+		boolean isPrime=true;
+		
+		if(num>1) {
+			for(int i=2; i<num; i++) {
+				if(num%i==0) {
+					isPrime=false;
+					break;
+				}
+			}
 		}else {
-			System.out.println("The given number is prime");
+			isPrime=false;
 		}
+		System.out.println("Is given number "+num+" prime? "+isPrime);
 	}
 }
