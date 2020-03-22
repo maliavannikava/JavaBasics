@@ -6,6 +6,17 @@ public class Dog {
 	String color;
 	String name;
 	int age;
+	
+	void bark(){
+		System.out.println("Dog can bark");
+	}
+	void play(){
+		System.out.println("Dog can play");
+	}
+	void run(){
+		System.out.println("Dog can run");
+	}
+	
 
 	public static void main(String[] args) {
 		
@@ -14,6 +25,10 @@ public class Dog {
 		dog1.color="Red and white";
 		dog1.name="Peach";
 		dog1.age=2;
+		
+		dog1.bark();
+		dog1.play();
+		dog1.run();
 		
 		Dog dog2=new Dog();
 		dog2.breed="Chow Chow";

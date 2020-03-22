@@ -37,5 +37,11 @@ public class Garage {
 		//I drive pink BMW
 		
 		System.out.println("I drive "+car2.color+" "+car2.make);
+		
+		
+		Car2 anotherCar=new Car2();
+		anotherCar.make="Toyota";
+		anotherCar.speed=150;
+		anotherCar.drive();
 	}
 }
