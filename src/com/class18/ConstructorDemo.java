@@ -1,4 +1,4 @@
-package com.vlass18;
+package com.class18;
 
 public class ConstructorDemo {
 	
