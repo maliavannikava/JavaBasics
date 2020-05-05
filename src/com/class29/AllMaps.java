@@ -50,8 +50,8 @@ public class AllMaps {
 		
 		//get all values using iterator
 		Iterator<Integer> key=shopping.values().iterator();
-		while(it.hasNext()) {
-			System.out.println("Key: "+key);
+		while(key.hasNext()) {
+			System.out.println("Key: "+key.next());
 		}
 	}
 }

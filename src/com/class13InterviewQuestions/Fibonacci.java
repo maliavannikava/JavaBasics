@@ -9,10 +9,11 @@ public class Fibonacci {
 		int n2=1;
 		
 		for(int a=1; a<=10; ++a) {
-			System.out.print(n1+" ");
+			
 			int sum=n1+n2;
 			n1=n2;
-			n2=sum;		
+			n2=sum;	
+			System.out.print(n1+" ");
 		}
 	}
 }
